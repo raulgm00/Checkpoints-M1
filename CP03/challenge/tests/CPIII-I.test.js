@@ -1,17 +1,3 @@
-// Importa las variables desde el archivo de ejercicios
-const {
-  resultado1,
-  resultado2,
-  resultado3,
-  suma,
-  producto,
-  resultado6,
-  indiceBanana,
-  sumaNumeros,
-  resultado9,
-  potencia,
-} = require('../CheckPoint-03-I.js'); // Asegúrate de ajustar la ruta según la ubicación de tu archivo de ejercicios
-
 // Prueba 1: Verificar resultado1
 test('Prueba: Resultado 1', () => {
   expect(resultado1).toBe('1 2 3 4 5 ');
@@ -61,3 +47,16 @@ test('Prueba: Resultado 9', () => {
 test('Prueba: Potencia', () => {
   expect(potencia).toBe(16); // Cambia el valor esperado según el valor de n
 });
+// Importa las variables desde el archivo de ejercicios
+const {
+  resultado1,
+  resultado2,
+  resultado3,
+  suma,
+  producto,
+  resultado6,
+  indiceBanana,
+  sumaNumeros,
+  resultado9,
+  potencia,
+} = require('../CheckPoint-03-I.js'); // Asegúrate de ajustar la ruta según la ubicación de tu archivo de ejercicios
