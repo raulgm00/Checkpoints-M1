@@ -1,17 +1,3 @@
-// Importa las variables desde el archivo de ejercicios
-const {
-  resultado1,
-  resultado2,
-  resultado3,
-  resultado4,
-  resultado5,
-  resultado6,
-  resultado7,
-  resultado8,
-  resultado9,
-  resultado10,
-} = require("../CheckPoint-04-I.js"); // Asegúrate de ajustar la ruta según la ubicación de tu archivo de ejercicios
-
 // Prueba 1: Verificar resultado1
 test("Prueba: Resultado 1", () => {
   expect(resultado1).toBe("positivo");
@@ -61,3 +47,17 @@ test("Prueba: Resultado 9", () => {
 test("Prueba: Resultado 10", () => {
   expect(resultado10).toBe("puede conducir");
 });
+
+// Importa las variables desde el archivo de ejercicios
+const {
+  resultado1,
+  resultado2,
+  resultado3,
+  resultado4,
+  resultado5,
+  resultado6,
+  resultado7,
+  resultado8,
+  resultado9,
+  resultado10,
+} = require("../CheckPoint-04-I.js"); // Asegúrate de ajustar la ruta según la ubicación de tu archivo de ejercicios

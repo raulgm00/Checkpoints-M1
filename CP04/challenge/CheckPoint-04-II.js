@@ -1,7 +1,13 @@
 // Ejercicio 1: Utilizar una declaración if...else if para determinar la calificación de un estudiante.
 
 // Escribí tu código acá abajo:
-
+let resultado1="";
+let calificacion= 6;
+if(calificacion < 6){
+  resultado1 = "B";
+}else if(calificacion>=6){
+  resultado1 = "A";
+}
 // Ejercicio 2: Utilizar una declaración if...else if para determinar la categoría de un producto.
 
 // Escribí tu código acá abajo:

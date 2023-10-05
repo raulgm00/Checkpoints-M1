@@ -1,7 +1,9 @@
 // Ejercicio 1: Utilizar una declaración if para determinar si un número es positivo o negativo.
-
+let resultado1="";
 // Escribí tu código acá abajo:
-
+if(1> 0){
+  resultado1="positivo";
+}
 // Ejercicio 2: Utilizar una declaración if para determinar si un número es par o impar.
 
 // Escribí tu código acá abajo:
