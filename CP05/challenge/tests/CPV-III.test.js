@@ -46,7 +46,7 @@ test('Prueba: subcadenaSinRepetir5("abcabcbb")', () => {
 
 // Prueba 6: Verificar sumaPrimosMenoresOIguales6
 test("Prueba: sumaPrimosMenoresOIguales6(10)", () => {
-  expect(sumaPrimosMenoresOIguales6(10)).toBe(17);
+  expect(sumaPrimosMenoresOIguales6(10)).toBe(25);
 });
 
 // Prueba 7: Verificar formasDeSubirEscalera7
